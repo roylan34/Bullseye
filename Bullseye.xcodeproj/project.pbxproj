@@ -13,6 +13,8 @@
 		0925AD0D24D625E800D5CB47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0925AD0B24D625E800D5CB47 /* Main.storyboard */; };
 		0925AD0F24D625E900D5CB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0925AD0E24D625E900D5CB47 /* Assets.xcassets */; };
 		0925AD1224D625E900D5CB47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0925AD1024D625E900D5CB47 /* LaunchScreen.storyboard */; };
+		094EAD2524E2D3270091C0C3 /* AboutAuthorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EAD2424E2D3270091C0C3 /* AboutAuthorController.swift */; };
+		0971516F24E17E1900C3B20B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0971516E24E17E1900C3B20B /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0925AD0E24D625E900D5CB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0925AD1124D625E900D5CB47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0925AD1324D625E900D5CB47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094EAD2424E2D3270091C0C3 /* AboutAuthorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorController.swift; sourceTree = "<group>"; };
+		0971516E24E17E1900C3B20B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +47,10 @@
 				0925AD0424D625E800D5CB47 /* Bullseye */,
 				0925AD0324D625E800D5CB47 /* Products */,
 			);
+			indentWidth = 3;
 			sourceTree = "<group>";
+			tabWidth = 3;
+			usesTabs = 0;
 		};
 		0925AD0324D625E800D5CB47 /* Products */ = {
 			isa = PBXGroup;
@@ -63,6 +70,8 @@
 				0925AD0E24D625E900D5CB47 /* Assets.xcassets */,
 				0925AD1024D625E900D5CB47 /* LaunchScreen.storyboard */,
 				0925AD1324D625E900D5CB47 /* Info.plist */,
+				0971516E24E17E1900C3B20B /* AboutViewController.swift */,
+				094EAD2424E2D3270091C0C3 /* AboutAuthorController.swift */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -138,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094EAD2524E2D3270091C0C3 /* AboutAuthorController.swift in Sources */,
 				0925AD0A24D625E800D5CB47 /* ViewController.swift in Sources */,
 				0925AD0624D625E800D5CB47 /* AppDelegate.swift in Sources */,
+				0971516F24E17E1900C3B20B /* AboutViewController.swift in Sources */,
 				0925AD0824D625E800D5CB47 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,14 +295,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bullseye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roecomp.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +316,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bullseye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.roecomp.Bullseye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
