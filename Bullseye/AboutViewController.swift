@@ -2,8 +2,7 @@
 //  AboutViewController.swift
 //  Bullseye
 //
-//  Created by Vananaz Developer on 8/10/20.
-//  Copyright © 2020 Roe Developer. All rights reserved.
+//  Created by Roelan Eroy on 8/10/20.
 //
 
 import UIKit

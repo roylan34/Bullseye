@@ -3,7 +3,6 @@
 //  Bullseye
 //
 //  Created by Roelan Eroy on 8/2/20.
-//  Copyright © 2020 Roe Developer. All rights reserved.
 //
 
 import UIKit
